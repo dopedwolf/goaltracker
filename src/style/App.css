@@ -1,0 +1,159 @@
+ @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,800');
+
+#container, html {
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Fira Sans', sans-serif;
+}
+.signup {
+  background-color: #B0E0E6 !important;
+}
+.signin {
+  background-color: #FFB6C1 !important;
+}
+.signupForm {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signupForm h2 {
+  font-family: 'Fira Sans', serif;
+  font-weight: 800;
+}
+.signupFormInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signupFormInner input {
+  margin: 10px;
+}
+.signLink {
+  font-size: 15px;
+}
+.signLink:hover {
+  text-decoration: none;
+  color: white;
+}
+.pageMenu {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(219,219,219,1);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(219,219,219,1);
+  box-shadow: 0px 2px 8px 0px rgba(219,219,219,1);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.appPage {
+  background-color: #f9f9f9;
+}
+.pageMenu h3 {
+  color: rgb(237, 126, 192);
+  align-self: center;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 400px;
+  margin: 30px;
+  border-bottom: 3px solid rgb(237, 126, 192);
+}
+.goalsPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.goalItem {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 400px;
+  min-height: 50px;
+  margin: 10px;
+  padding: 15px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(219,219,219,1);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(219,219,219,1);
+  box-shadow: 0px 2px 8px 0px rgba(219,219,219,1);
+}
+.author {
+  font-weight: 700;
+  color: rgb(144, 143, 143);
+  position: absolute;
+  top: 6px;
+  font-size: 12px;
+  font-style: italic;
+  right: 10px;
+}
+.completeGoals {
+  border-top: 8px solid rgb(74, 152, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.completeGoals h3 {
+  color: white;
+  align-self: center;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 400px;
+  margin: 30px;
+  margin-top: 0;
+  padding: 18px;
+  background-color: rgb(74, 152, 255);
+  border: 5px solid rgb(74, 152, 255);
+  border-top: none;
+}
+.goalList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.goalList button {
+  margin-top: 20px;
+  font-weight: 800;
+}
+.complete {
+  align-self: flex-end;
+  color: rgb(30, 190, 29);
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.goalItem h4 {
+  margin-top: 20px;
+  font-weight: 800;
+}
+.addGoal {
+  margin-bottom: 15px;
+  align-self: center;
+}
+.pageMenu button {
+  align-self: flex-end;
+  font-weight: 800;
+}
+.inputError {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 22px;
+  font-style: italic;
+  font-size: 17px;
+  color:  #FF7373;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 800;
+}
